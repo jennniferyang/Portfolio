@@ -1,11 +1,3 @@
-* {
-	--margin-space: 0px;
-	--margin-2space: calc( var(--margin-space) * 2 );
-	margin-top: var(--margin-space);
-  margin-right: var(--margin-space);
-  margin-left: var(--margin-space);
-  margin-bottom: var(--margin-space);
-}
 /// flex
 [class*='flex'] {
 	display: flex;
@@ -14,6 +6,7 @@
 	flex-wrap: wrap;
 	&>* {
 		flex: 0 0 auto;
+		margin: $flex-child-spacing;
 	}
 }
 [class*='flex'][class*='-jc-'] {
@@ -79,68 +72,68 @@
 	flex-basis: 500px;
 }
 [class*='flex'][class*='-l1-']>* {
-	width: calc( 100% - var(--margin-2space) );
-	flex-basis: calc( 100% - var(--margin-2space) );
+	width: calc( 100% - #{$flex-child-spacing * 2} );
+	flex-basis: calc( 100% - #{$flex-child-spacing * 2} );
 }
 [class*='flex'][class*='-l2-']>* {
-	width: calc( 50% - var(--margin-2space) );
-	flex-basis: calc( 50% - var(--margin-2space) );
+	width: calc( 50% - #{$flex-child-spacing * 2} );
+	flex-basis: calc( 50% - #{$flex-child-spacing * 2} );
 }
 [class*='flex'][class*='-l3-']>* {
-	width: calc( 33.33% - var(--margin-2space) );
-	flex-basis: calc( 33.33% - var(--margin-2space) );
+	width: calc( 33.33% - #{$flex-child-spacing * 2} );
+	flex-basis: calc( 33.33% - #{$flex-child-spacing * 2} );
 }
 [class*='flex'][class*='-l4-']>* {
-	width: calc( 25% - var(--margin-2space) );
-	flex-basis: calc( 25% - var(--margin-2space) );
+	width: calc( 25% - #{$flex-child-spacing * 2} );
+	flex-basis: calc( 25% - #{$flex-child-spacing * 2} );
 }
 [class*='flex'][class*='-l5-']>* {
-	width: calc( 20% - var(--margin-2space) );
-	flex-basis: calc( 20% - var(--margin-2space) );
+	width: calc( 20% - #{$flex-child-spacing * 2} );
+	flex-basis: calc( 20% - #{$flex-child-spacing * 2} );
 }
 [class*='flex'][class*='-l6-']>* {
-	width: calc( 16.66% - var(--margin-2space) );
-	flex-basis: calc( 16.66% - var(--margin-2space) );
+	width: calc( 16.66% - #{$flex-child-spacing * 2} );
+	flex-basis: calc( 16.66% - #{$flex-child-spacing * 2} );
 }
 @media screen and (max-width:$breakpoint-medium) {
 	[class*='flex'][class*='-m1-']>* {
-		width: calc( 100% - var(--margin-2space) );
-		flex-basis: calc( 100% - var(--margin-2space) );
+		width: calc( 100% - #{$flex-child-spacing * 2} );
+		flex-basis: calc( 100% - #{$flex-child-spacing * 2} );
 	}
 	[class*='flex'][class*='-m2-']>* {
-		width: calc( 50% - var(--margin-2space) );
-		flex-basis: calc( 50% - var(--margin-2space) );
+		width: calc( 50% - #{$flex-child-spacing * 2} );
+		flex-basis: calc( 50% - #{$flex-child-spacing * 2} );
 	}
 	[class*='flex'][class*='-m3-']>* {
-		width: calc( 33.33% - var(--margin-2space) );
-		flex-basis: calc( 33.33% - var(--margin-2space) );
+		width: calc( 33.33% - #{$flex-child-spacing * 2} );
+		flex-basis: calc( 33.33% - #{$flex-child-spacing * 2} );
 	}
 	[class*='flex'][class*='-m4-']>* {
-		width: calc( 25% - var(--margin-2space) );
-		flex-basis: calc( 25% - var(--margin-2space) );
+		width: calc( 25% - #{$flex-child-spacing * 2} );
+		flex-basis: calc( 25% - #{$flex-child-spacing * 2} );
 	}
 }
 @media screen and (max-width:$breakpoint-small) {
 	[class*='flex'][class*='-s1-']>* {
-		width: calc( 100% - var(--margin-2space) );
-		flex-basis: calc( 100% - var(--margin-2space) );
+		width: calc( 100% - #{$flex-child-spacing * 2} );
+		flex-basis: calc( 100% - #{$flex-child-spacing * 2} );
 	}
 	[class*='flex'][class*='-s2-']>* {
-		width: calc( 50% - var(--margin-2space) );
-		flex-basis: calc( 50% - var(--margin-2space) );
+		width: calc( 50% - #{$flex-child-spacing * 2} );
+		flex-basis: calc( 50% - #{$flex-child-spacing * 2} );
 	}
 	[class*='flex'][class*='-s3-']>* {
-		width: calc( 33.33% - var(--margin-2space) );
-		flex-basis: calc( 33.33% - var(--margin-2space) );
+		width: calc( 33.33% - #{$flex-child-spacing * 2} );
+		flex-basis: calc( 33.33% - #{$flex-child-spacing * 2} );
 	}
 }
 @media screen and (max-width:$breakpoint-xsmall) {
 	[class*='flex'][class*='-xs1-']>* {
-		width: calc( 100% - var(--margin-2space) );
-		flex-basis: calc( 100% - var(--margin-2space) );
+		width: calc( 100% - #{$flex-child-spacing * 2} );
+		flex-basis: calc( 100% - #{$flex-child-spacing * 2} );
 	}
 	[class*='flex'][class*='-xs2-']>* {
-		width: calc( 50% - var(--margin-2space) );
-		flex-basis: calc( 50% - var(--margin-2space) );
+		width: calc( 50% - #{$flex-child-spacing * 2} );
+		flex-basis: calc( 50% - #{$flex-child-spacing * 2} );
 	}
 }

@@ -1,0 +1,16 @@
+[class*='btn'] {
+	cursor: pointer;
+	user-select: none;
+  text-align: center;  
+}
+
+.more-btn {
+	display: block;
+	background-image: linear-gradient(to right, #66AFE7 0, #3677C9 100%);
+	width: 120px;
+	line-height: 30px;
+	background-color: #3677C9;
+	border-radius: 15px;
+	margin-top: 25px;
+	color: #fff;
+}

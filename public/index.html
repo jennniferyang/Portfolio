@@ -11,7 +11,7 @@
   <meta content="" property="og:site_name">
   <meta content="" property="og:description">
   <meta content="" property="og:image">
-  <link href="" rel="shortcut icon">
+  <link href="/assets/img/common/favicon.jpg" rel="shortcut icon">
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
@@ -20,36 +20,47 @@
 <div id="nav">
   <div class="menu-btn nav-menu"></div>
   <div class="nav-list">
-    <a href="">About</a>
-    <a href="">Works</a>
+    <a href="#" id="to-about">About</a>
+    <a href="#" id="to-works">Works</a>
   </div>
 </div>
 <section class="header flex-ac-jfe-">
   <div class="content">
-    <h1>Hi, I'm Jennifer</h1>
+    <h1>Hi! I am Jennifer!</h1>
     <p>
-      Fasting would surely come into fashion again at some future date, yet that was no comfort for those living in the present. What, then, was the hunger artist to do?
+      I am a project planner, a moderator, an observer, and a listener.
     </p>
+    <div class="header-icon">
+      <a href="http://www.facebook.com/nniferyang" target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a href="https://tw.linkedin.com/in/jennifer-yang-94b8a7a2" target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+      <a href="mailto:jennniferyang@gmail.com">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </div>
   </div>
 </section>
-<section class="about flex-ac-jc-">
+<section data-id="to-about" class="about flex-ac-jc-">
   <div class="content">
     <h2>About Me</h2>
     <div class="img">
       <img src="https://d13yacurqjgara.cloudfront.net/users/1550203/screenshots/3211491/uni.gif" alt="">
     </div>
     <div class="text">
-      <h3>Antiquity</h3>
+      <h3>Design is not about solving problems only, but also discovering them.</h3>
       <p>
-        When writing systems were created in ancient civilizations, a variety of objects, such as stone, clay, tree bark, metal sheets, might be used for writing. The study of such inscriptions forms a major part of history. The study of inscriptions is known as epigraphy. Alphabetic writing emerged in Egypt. The Ancient Egyptians would often write on papyrus.
+        I have a great passion for observing and understanding user’s unspoken needs and thoughts, analyzing factors that influence user experience, and providing useful and feasible recommendations to refine a design. I am also active in completing projects with quality and efficiency, and translating ideas into realizations.
       </p>
       <p>
-        A book is a set of written, printed, illustrated, or blank sheets, made of paper, parchment, or other materials, fastened together to hinge at one side, 
+        To me, design is not about solving problems only, but also discovering them. I have developed a multi-disciplinary skill set in management, design and social science, and I am looking forward to obtain the mindset and skills needed for becoming a user researcher, one who believes in human-centered design with all her heart and aspires to make a real difference in users’ lives.
       </p>
     </div>
   </div>
 </section>
-<section class="works flex-ac-jc-">
+<section data-id="to-works" class="works flex-ac-jc-">
   <div class="content">
     <h2>Works</h2>
     <div class="work">
@@ -109,9 +120,16 @@
 </div>
 </body>
 <script src="/assets/js/vendor/jquery-2.1.4.min.js"></script>
-<script src="/assets/js/vendor/headroom/headroom.js"></script>
-<script src="/assets/js/vendor/headroom/jQuery.headroom.js"></script>
-<script src="/assets/js/animateNumber.js"></script>
 <script src="/assets/js/aboutScroll.js"></script>
 <script src="/assets/js/index.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80652439-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </html>

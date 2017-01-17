@@ -315,6 +315,16 @@ footer {
 
 .pop-content-mw {
 	* { letter-spacing: 0.3px; }
+	h2 {
+		position: relative;
+		top: 0;
+		font-size: 25px;
+		font-family: $p600;
+		font-weight: 600;
+		color: #31384C;
+		text-shadow: 0 0 0 rgba(0,0,0,0);
+		text-align: center;
+	}
 	h3 {
 		margin: 40px 0 20px;
 		padding-bottom: 0;

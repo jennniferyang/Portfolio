@@ -678,6 +678,16 @@ footer {
 .pop-content-mw * {
   letter-spacing: 0.3px; }
 
+.pop-content-mw h2 {
+  position: relative;
+  top: 0;
+  font-size: 25px;
+  font-family: PingFangTC-Semibold, xingothic-tc, sans-serif, Microsoft JhengHei;
+  font-weight: 600;
+  color: #31384C;
+  text-shadow: 0 0 0 transparent;
+  text-align: center; }
+
 .pop-content-mw h3 {
   margin: 40px 0 20px;
   padding-bottom: 0;

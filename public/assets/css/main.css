@@ -679,14 +679,16 @@ footer {
   letter-spacing: 0.3px; }
 
 .pop-content-mw h3 {
-  margin: 10px 0;
+  margin: 20px 0 5px;
+  padding-bottom: 0;
   color: #80C3F3;
   font-weight: 600;
   font-family: PingFangTC-Semibold, xingothic-tc, sans-serif, Microsoft JhengHei; }
 
 .pop-content-mw h4 {
   font-weight: 600;
-  font-family: PingFangTC-Semibold, xingothic-tc, sans-serif, Microsoft JhengHei; }
+  font-family: PingFangTC-Semibold, xingothic-tc, sans-serif, Microsoft JhengHei;
+  font-size: 17px; }
   .pop-content-mw h4:before {
     content: '';
     position: relative;
@@ -703,6 +705,32 @@ footer {
   box-shadow: inset 2px 0 0 rgba(0, 0, 0, 0.1);
   margin: 5px auto;
   margin-bottom: 20px; }
+  .pop-content-mw p b {
+    font-size: 15px;
+    display: block;
+    font-weight: 600;
+    font-family: PingFangTC-Semibold, xingothic-tc, sans-serif, Microsoft JhengHei; }
+  .pop-content-mw p a {
+    color: #80C3F3;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: PingFangTC-Semibold, xingothic-tc, sans-serif, Microsoft JhengHei; }
+  .pop-content-mw p span {
+    padding-left: 23px;
+    display: block;
+    font-size: 14px;
+    margin: 2px 0;
+    position: relative; }
+    .pop-content-mw p span:before {
+      content: '';
+      position: absolute;
+      left: 10px;
+      top: 8px;
+      width: 4px;
+      height: 4px;
+      display: inline-block;
+      border-radius: 2px;
+      background-color: rgba(0, 0, 0, 0.4); }
 
 .pop-content-mw h5 {
   font-size: 13px;

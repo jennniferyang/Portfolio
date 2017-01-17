@@ -710,6 +710,15 @@ footer {
     border-radius: 3px;
     background-color: rgba(0, 0, 0, 0.5); }
 
+.pop-content-mw .weblink {
+  text-align: center;
+  margin-bottom: 15px; }
+  .pop-content-mw .weblink a {
+    color: #80C3F3;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: PingFangTC-Semibold, xingothic-tc, sans-serif, Microsoft JhengHei; }
+
 .pop-content-mw p {
   padding-left: 10px;
   box-shadow: inset 2px 0 0 rgba(0, 0, 0, 0.1);

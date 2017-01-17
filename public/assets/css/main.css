@@ -410,11 +410,26 @@ section {
   .header .content {
     max-width: 500px;
     text-align: left;
-    box-shadow: -7px 0 0 0 white;
     padding: 0;
     padding-left: 40px; }
+    .header .content.go {
+      -webkit-animation: linee .5s ease 1.3s 1 both;
+      animation: linee .5s ease 1.3s 1 both; }
+
+@-webkit-keyframes linee {
+  0% {
+    box-shadow: 0px 0 0 0 white; }
+  100% {
+    box-shadow: -7px 0 0 0 white; } }
+
+@keyframes linee {
+  0% {
+    box-shadow: 0px 0 0 0 white; }
+  100% {
+    box-shadow: -7px 0 0 0 white; } }
   .header h1, .header p {
-    width: 90%; }
+    width: 90%;
+    opacity: 0; }
   .header p {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.79);
@@ -424,6 +439,7 @@ section {
   .header .header-icon {
     margin-top: 20px; }
   .header a {
+    opacity: 0;
     display: inline-block;
     width: 29px;
     height: 29px;
@@ -517,7 +533,7 @@ h2 {
   padding: 5% 0;
   background-color: #fafafa; }
   .works-introduction > * {
-    width: 95%;
+    width: 85%;
     max-width: 900px;
     text-align: left;
     margin: 0 auto; }
@@ -758,6 +774,50 @@ footer {
   font-family: PingFangTC-Semibold, xingothic-tc, sans-serif, Microsoft JhengHei;
   letter-spacing: 0;
   margin-bottom: 30px; }
+
+.go {
+  -webkit-animation: showup .4s ease 0s 1 both;
+  animation: showup .4s ease 0s 1 both; }
+
+h1.go {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s; }
+
+.header p.go {
+  -webkit-animation-delay: .4s;
+  animation-delay: .4s; }
+
+.header-icon a:nth-child(1) {
+  -webkit-animation-delay: .6s;
+  animation-delay: .6s; }
+
+.header-icon a:nth-child(2) {
+  -webkit-animation-delay: .8s;
+  animation-delay: .8s; }
+
+.header-icon a:nth-child(3) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
+
+@-webkit-keyframes showup {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px); } }
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px); } }
 
 .youtube-box-main {
   position: relative;

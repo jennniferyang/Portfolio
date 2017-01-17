@@ -17,6 +17,9 @@ $(window).load(function() {
  	$(".pop-content").hide()
  	$('body').css('overflow-y', 'auto')
  })
+
+ $('h1, .header p, .header-icon a, .header .content').addClass('go');
+
 })
 
 

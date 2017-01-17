@@ -19,6 +19,10 @@ $(window).load(function() {
  })
 
  $('h1, .header p, .header-icon a, .header .content').addClass('go');
+ $('.pop-content img').each(function() {
+ 	var g = $(this).attr("data-src")
+ 	$(this).attr("src", g)
+ })
 
 })
 

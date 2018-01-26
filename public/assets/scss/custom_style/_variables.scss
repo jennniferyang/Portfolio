@@ -1,5 +1,6 @@
 /// color
 $primary-color: #0d2565;
+$color: #000;
 $secondary-color: transparent;
 $main: #80C3F3;
 $g: linear-gradient(to bottom, rgba(61, 182, 83, .2) 0, rgba(58, 131, 168, .24) 100%),
@@ -31,9 +32,9 @@ $nav-zindex: 30;
 $popup-zindex: 31;
 
 /// font-family
-$p100: PingFangTC-Ultralight, xingothic-tc, sans-serif, Microsoft JhengHei;
-$p200: PingFangTC-Thin, xingothic-tc, sans-serif, Microsoft JhengHei;
-$p300: PingFangTC-Light, xingothic-tc, sans-serif, Microsoft JhengHei;
-$p400: PingFangTC-Regular, xingothic-tc, sans-serif, Microsoft JhengHei;
-$p500: PingFangTC-Medium, xingothic-tc, sans-serif, Microsoft JhengHei;
-$p600: PingFangTC-Semibold, xingothic-tc, sans-serif, Microsoft JhengHei;
+$p100: Karla-Ultralight, Open Sans, sans-serif, Lato;
+$p200: Karla-Thin, Open Sans, sans-serif, Lato;
+$p300: Karla-Light, Open Sans, sans-serif, Lato;
+$p400: Karla-Regular, Open Sans, sans-serif, Lato;
+$p500: Karla-Medium, Open Sans, sans-serif, Lato;
+$p600: Karla-Medium, Open Sans, sans-serif, Lato;

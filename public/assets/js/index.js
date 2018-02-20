@@ -18,7 +18,7 @@ $(window).load(function() {
 		$('.nav-list').toggleClass('active');
 	});
 
- $('.more-btn').click(function(){
+ $('.work').click(function(){
  	$(".pop").show()
  	var a = $(this).attr('data-pop');
  	$(".pop-content").hide()

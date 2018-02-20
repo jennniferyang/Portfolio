@@ -27,6 +27,11 @@
 			font-size: 15px;
 			margin: 0 10px;
 			color: $nav-font-color;
+			transition: 0.3s ease;
+
+			&:hover {
+				color: #6FD1FF;
+			}
 		}
 	}
 	@media screen and (max-width: $breakpoint-nav-transform) {

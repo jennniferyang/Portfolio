@@ -14,3 +14,17 @@ map '/' do
       ]
     }
 end
+
+
+map '/about.html' do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type'  => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/about.html', File::RDONLY)
+    ]
+  }
+end

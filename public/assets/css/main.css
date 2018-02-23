@@ -31,7 +31,7 @@ html, body {
   font: inherit;
   vertical-align: baseline;
   box-sizing: border-box;
-  font-family: "Open Sans" -Medium, "Lato", "Nunito Sans", sans-serif !important;
+  font-family: "Open Sans" -Light, "Lato", "Nunito Sans", sans-serif !important;
   letter-spacing: 0px !important; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -494,7 +494,7 @@ section {
       margin: 0 auto;
       background-color: #fff; }
   .about p {
-    font-weight: 100;
+    font-weight: 300;
     opacity: .85;
     font-size: 16px;
     padding: 0 20px; }
@@ -548,8 +548,8 @@ h2 {
   .works-introduction p {
     letter-spacing: .5px;
     font-size: 16px;
-    font-family: "Open Sans" -Medium, "Lato", "Nunito Sans", sans-serif;
-    font-weight: 500;
+    font-family: "Open Sans" -Light, "Lato", "Nunito Sans", sans-serif;
+    font-weight: 300;
     color: rgba(0, 0, 0, 0.5);
     position: relative; }
     .works-introduction p:after {
@@ -676,8 +676,8 @@ footer {
       letter-spacing: 0.2px;
       line-height: 1.7;
       font-size: 16px;
-      font-family: "Open Sans", "Lato", "Nunito Sans", sans-serif;
-      font-weight: 400;
+      font-family: "Open Sans" -Light, "Lato", "Nunito Sans", sans-serif;
+      font-weight: 300;
       color: rgba(0, 0, 0, 0.69); }
     .pop .pop-content img {
       width: 100%;
@@ -726,13 +726,13 @@ footer {
   .pop-content-mw p b {
     font-size: 16px;
     display: block;
-    font-weight: 600;
-    font-family: "Open Sans" -Medium, "Lato", "Nunito Sans", sans-serif; }
+    font-weight: 300;
+    font-family: "Open Sans" -Light, "Lato", "Nunito Sans", sans-serif; }
   .pop-content-mw p a {
     color: #80C3F3;
     font-size: 16px;
-    font-weight: 600;
-    font-family: "Open Sans" -Medium, "Lato", "Nunito Sans", sans-serif; }
+    font-weight: 300;
+    font-family: "Open Sans" -Light, "Lato", "Nunito Sans", sans-serif; }
   .pop-content-mw p span {
     padding-left: 23px;
     display: block;
@@ -753,8 +753,8 @@ footer {
 .pop-content-mw h5 {
   font-size: 13px;
   color: rgba(0, 0, 0, 0.4);
-  font-weight: 600;
-  font-family: "Open Sans" -Medium, "Lato", "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-family: "Open Sans" -Light, "Lato", "Nunito Sans", sans-serif;
   letter-spacing: 0;
   margin-bottom: 30px; }
 

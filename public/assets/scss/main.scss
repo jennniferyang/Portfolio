@@ -109,7 +109,7 @@
 	p {
 	 font-weight: 100;
 	 opacity: .85;
-	 font-size: 14px;
+	 font-size: 16px;
 	 padding: 0 20px;
 	}
 
@@ -119,6 +119,8 @@
 		z-index: 1;
 		padding: 10px 0;
 		color: #fff;
+		line-height: 1.7;
+
 	}
 }
 
@@ -158,8 +160,8 @@ h2 {
 	h3 {
 		margin-bottom: 15px;
 		font-size: 23px;
-		font-family: $p600;
-		font-weight: 600;
+		font-family: $p400;
+		font-weight: 400;
 		color: $main;
 	}
 	h4 {
@@ -193,7 +195,7 @@ h2 {
 	cursor: pointer;
 	position: relative;
 	margin-bottom: 15px;
-	box-shadow: 0 30px 50px 0 rgba(202, 214, 232, 0.53);
+	box-shadow: 0 30px 50px 0 rgba(202, 210, 235, 0.6);
 	transition: 0.3s ease;
 
 	&:after {
@@ -219,7 +221,7 @@ h2 {
 
 	&>* {
 		width: 100%;
-		height: 250px;
+		height: 280px;
 	}
 
 	&:hover .text {
@@ -231,21 +233,21 @@ h2 {
 		left: 0;
 		top: 0;
 		text-align: center;
-		background-color: rgba(31, 88, 117, .75);
-		padding: 10px;
+		background-color: rgba(31, 88, 117, .8);
+		padding: 30px;
 		opacity: 0;
 		transition: 0.3s ease;
 		z-index: 10;
 
 		h3 {
-			font-size: 20px;
+			font-size: 23px;
 			margin: 0 auto;
 			color: #fff;
-			font-weight: bold;
 			margin-top: 55px;
+			letter-spacing: 1.5px !important;
 		}
 		p {
-			letter-spacing: .5px;
+			letter-spacing: .5px !important;
 			line-height: 1.7;
 			font-size: 14px;
 			padding: 0 20px;
@@ -262,15 +264,15 @@ h3 {
 
 footer {
 	color: rgba(0,0,0,.3);
-	font-size: 12px;
+	font-size: 14px;
 	letter-spacing: .5px;
 	text-align: center;
 	padding: 30px 5%;
 	background-image: $gr;
-	color: rgba(0,0,0,.7);
 	box-shadow:inset 0 5px 10px 0 rgba(0,0,0,.2);
 	p {
-		color: rgba(17,44,111,.3);
+		color: rgba(0,0,0,.3);
+		font-size: 14px;
 	}
 }
 

@@ -400,6 +400,9 @@ section {
     transform: rotate3d(0, 0, 1, -45deg);
     bottom: 14px; } }
 
+.active {
+  color: #7ED5FE !important; }
+
 .header {
   color: #7ED5FE;
   min-height: 450px; }

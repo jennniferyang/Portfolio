@@ -10,6 +10,10 @@
 @import 'element/btn'; // btn & calltoaction
 @import 'element/nav'; // btn & calltoaction
 
+.active {
+	color: #7ED5FE!important;
+}
+
 .header {
 	color: #7ED5FE;
 	min-height: 450px;

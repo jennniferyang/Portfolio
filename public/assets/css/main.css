@@ -640,7 +640,7 @@ footer {
     font-size: 14px; }
 
 .top_cover_photo {
-  height: 65vh; }
+  height: 85vh; }
 
 .pop {
   display: none;
@@ -658,7 +658,7 @@ footer {
     z-index: 10;
     cursor: pointer;
     font-size: 16px;
-    color: #5E5E5E; }
+    color: #80C3F3; }
     .pop .bg i {
       font-size: 20px; }
   .pop .pop-content-mw {
@@ -689,6 +689,7 @@ footer {
   letter-spacing: 0.3px; }
 
 .pop-content-mw h2 {
+  margin: 40px 0 10px;
   position: relative;
   top: 0;
   font-size: 36px;
@@ -753,12 +754,13 @@ footer {
       background-color: rgba(0, 0, 0, 0.5); }
 
 .pop-content-mw h5 {
-  font-size: 13px;
+  font-size: 14px;
   color: rgba(0, 0, 0, 0.4);
   font-weight: 300;
   font-family: "Open Sans" -Light, "Lato", "Nunito Sans", sans-serif;
   letter-spacing: 0;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  text-align: center; }
 
 .go {
   -webkit-animation: showup .4s ease 0s 1 both;

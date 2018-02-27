@@ -71,10 +71,10 @@
 @media screen and (max-width: $breakpoint-nav-transform) {
 	[class*='nav-menu'] {
 		display: inline-block;
-		position: relative;
+		position: absolute;
 		width: $mobile-nav-height;
 		height: $mobile-nav-height;
-		left: 3%;
+		right: 10px;
 		&:after, &:before {
 			position: absolute;
 			content:'';

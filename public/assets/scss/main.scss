@@ -65,11 +65,11 @@
 	a {
 		opacity: 0;
 		display: inline-block;
-		width: 25px;
-		height: 29px;
+		width: 30px;
+		height: 30px;
 		text-align: center;
 		line-height: 29px;
-		font-size: 15px;
+		font-size: 18px;
 		// box-shadow: inset 0 0 0 1px rgba(255,255,255,.5);
 		transition: .3s ease;
 		border-radius: 5px;
@@ -247,10 +247,10 @@ h2 {
 		left: 0;
 		top: 0;
 		text-align: center;
-		background-color: rgba(31, 88, 117, .8);
+		background-color: rgba(0, 20, 78, .85);
 		padding: 30px;
 		opacity: 0;
-		transition: 0.3s ease;
+		transition: 0.3s ease-in;
 		z-index: 10;
 
 		h3 {
@@ -267,6 +267,8 @@ h2 {
 			padding: 0 20px;
 			margin-top: 15px;
 			color: #fff;
+			font-family: $p300;
+			font-weight: 300;
 		}
 	}
 }
@@ -292,7 +294,7 @@ footer {
 
 .top_cover_photo {
 	height: 67.5vw;
-	max-height: 85vh;
+	max-height: 90vh;
 
 	@media screen and (max-width: 768px) {
 		height: 50vh;
@@ -315,7 +317,7 @@ footer {
 		z-index: 10;
 		cursor: pointer;
 		font-size: 16px;
-		color: #80C3F3;
+		color: #7ED5FE;
 		i {
 			font-size: 20px;
 		}
@@ -383,12 +385,12 @@ footer {
 
 	h4.sub-title {
 		position: relative;
-		margin-bottom: 15px;
-		padding-bottom: 15px;
+		margin: 10px 0 20px;
+		padding-bottom: 20px;
 		text-align: center;
 		font-weight: 300;
-		opacity: .69;
-		font-size: 20px;
+		opacity: .6;
+		font-size: 17px;
 
 		&:after {
 			content: '';
@@ -512,8 +514,10 @@ h1.go {
 .about-wrapper {
 	img {
 		width: 98%;
-		max-width: 300px;
+		max-width: 250px;
 		margin: 0 auto 50px;
+		border-radius: 200px;
+    box-shadow: 0px 30px 50px 0px rgba(202, 210, 235, 0.6);
 	}
 
 	.about-title {
